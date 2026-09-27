@@ -1,0 +1,30 @@
+# ==== Vivado 编译缓存 / 生成物 ====
+.Xil/
+thinpad_top.cache/
+thinpad_top.hw/
+thinpad_top.runs/
+thinpad_top.sim/
+thinpad_top.ip_user_files/
+
+# Vivado 日志与报告
+*.jou
+*.log
+*.str
+*.pb
+*.rpt
+*.backup.log
+
+# IP 生成缓存（如需保留 IP 生成结果，删掉下面这行）
+*.gen/
+*.ip_user_files/
+
+# ==== 备份文件 ====
+*.bak
+*~
+
+# ==== 本地 Claude Code 工作文件（如想保留 plan 文档，删掉下面这行）====
+.claude/
+
+# ==== 操作系统 ====
+Thumbs.db
+Desktop.ini
